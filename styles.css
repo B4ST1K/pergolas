@@ -1182,3 +1182,62 @@
       transition: none;
     }
   }
+
+
+  .contact-alt{
+    margin-top:2rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1rem;
+  }
+  
+  .contact-alt-label{
+    font-size:.75rem;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+  }
+  
+  .email-card{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    padding:1rem 1.5rem;
+    background:rgba(255,255,255,.03);
+    border:1px solid rgba(184,151,58,.2);
+    backdrop-filter:blur(10px);
+    text-decoration:none;
+    transition:all .3s ease;
+    min-width:320px;
+  }
+  
+  .email-card:hover{
+    border-color:var(--gold);
+    background:rgba(184,151,58,.08);
+    transform:translateY(-2px);
+  }
+  
+  .email-card svg{
+    width:24px;
+    height:24px;
+    color:var(--gold);
+    flex-shrink:0;
+  }
+  
+  .email-info{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+  }
+  
+  .email-info strong{
+    color:var(--white);
+    font-size:.9rem;
+    font-weight:600;
+  }
+  
+  .email-info span{
+    color:var(--gold-light);
+    font-size:.85rem;
+  }
